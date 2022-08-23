@@ -1,4 +1,4 @@
-const apikey = "AIzaSyANc99U9HibPrlzMcJvFgaXAfctezNdBAA";
+const apikey = /* your apikey*/
 
 module.exports = {
     apikey
