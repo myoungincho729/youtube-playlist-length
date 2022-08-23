@@ -23,6 +23,7 @@ const get_list_id = (url) => {
 async function play(url) {
     try {
         let playlistId = get_list_id(url);
+        if (playlistId === undefined) return 400;
         let url1 = `https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=50&fields=items/contentDetails/videoId,pageInfo.totalResults,nextPageToken&key=${apikey}&playlistId=${playlistId}&pageToken=`;
         let nextToken = '';
         let totalTime = 0;
