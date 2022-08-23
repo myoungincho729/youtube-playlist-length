@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const { get_list_id, play }  = require('./routes/playlist_crawler');
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 const app = express();
 
