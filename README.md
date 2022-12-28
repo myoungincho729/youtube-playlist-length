@@ -2,7 +2,7 @@
 유튜브 재생목록 url을 받으면 유튜브 api를 사용하여 재생목록에 있는 동영상들의 총 길이를 보내주는 사이트입니다.
 
 * 경험해보기
-[https://www.ytbplaylistlength.o-r.kr/](https://www.ytbplaylistlength.o-r.kr/)
+[http://www.ytbplaylistlength.o-r.kr/](http://www.ytbplaylistlength.o-r.kr/)
 
 ### 로직 설명
 * 재생목록 안의 영상 url은 'list=***' 형태로 되어 있고 ***에 해당하는 부분이 재생목록의 id입니다. 
